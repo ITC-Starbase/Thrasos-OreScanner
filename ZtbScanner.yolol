@@ -10,7 +10,7 @@ if :R>I then :I=I SM=:M+" \n" SV=:V+" kv \n" I++ goto5 end goto6
     
     
 // Replace Line 4 with this line if you prefer Stacks over KV
-if :R>I then :I=I SM=:M+" \n" SV=:V/1726+" stks " I++ goto5 end goto6
+if :R>I then :I=I SM=:M+" \n" SV=:V/1728+" stks " I++ goto5 end goto6
 
 
 
