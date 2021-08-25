@@ -2,7 +2,8 @@
 Modified Version of the Marmot MN Ore Scanner that stays on until results are displayed.
 
 Configure Your Ore scanner with the following variable/property names:
-```Scanner
+```
+Scanner
 I
 R
 M
@@ -10,7 +11,7 @@ V
 Scan
 Reset
 ```
-[Scanner Properties](./images/ScannerConfig.png)
+![Scanner Properties](./images/ScannerConfig.png)
 
 Put a button on your dash and set its name to "ScanBtn" and set ButtonStyle to 1  
 Put a TextPanel on your Dash and name it: "LastScan"  
@@ -24,7 +25,7 @@ Valkite
 Bastium
  3456 kv Ore
 ```
-[Scanner Properties](./images/ScanResults.png)
+![Scanner Properties](./images/ScanResults.png)
 
 If you scan an asteroid it will add "Ore" or "Crystals" to the result text. If you scan an object it will omit these words.
 
