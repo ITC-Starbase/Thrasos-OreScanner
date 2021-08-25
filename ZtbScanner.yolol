@@ -1,0 +1,18 @@
+if :ScanBtn==1 then I=0 goto2 else goto 8 end
+:Scanner=1 :C=5 :LastScan="Scanning" SM="" SV=""
+if :R==0 then :LastScan="No results" goto7 end :LastScan=""
+if :R>I then :I=I SM=:M+" \n" SV=:V+" kv \n" I++ goto5 end goto6
+:LastScan=:LastScan+SM-" Ore"-" Crystals"+" "+SV goto4
+:Scan=0 :Scanner=0 :Reset=1 :ScanBtn=0 goto 1
+:Scan=1 :Reset=0 goto 1
+:Scan=0 :Scanner=0 :Reset=1 goto 1
+
+    
+    
+
+
+
+
+
+
+
