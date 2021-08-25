@@ -26,4 +26,6 @@ Bastium
 ```
 [Scanner Properties](./images/ScanResults.png)
 
-If you scan an asteroid it will add "Ore" or "Crystals" to the result text. If you scan an object it will omit these words
+If you scan an asteroid it will add "Ore" or "Crystals" to the result text. If you scan an object it will omit these words.
+
+Feel free to use modify or resdistribute this script in any way.
